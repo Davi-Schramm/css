@@ -50,7 +50,7 @@
     color:#E5E7EB;
 }
 
-#sign{
+.sign{
     background-color: #3882F6;
     font-weight: bolder;
     font-size: 18px;
@@ -114,4 +114,32 @@
     padding-bottom: 120px;
     font-size: 28px;
     padding-left:70%;
+}
+
+#fourthblock{
+    padding: 100px;
+}
+
+#fourthblock #flex-cont{
+    display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#fourthblock #flex-cont div{
+    padding-left: 10%;
+    color: #E5E7EB;
+}
+#fourthblock #flex-cont div h2{
+    font-size: 30px;
+}
+
+#fourthblock #flex-cont div p{
+    font-size: 20px;
+}
+
+#flex-cont div{
+    flex:1;
 }
