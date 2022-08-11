@@ -1,6 +1,7 @@
 *{
     font-family: 'Franklin Gothic','Times New Roman', Times, serif;
-    /*border: 2px double red;*/
+    margin: 0;
+    padding:0;
 }
 
 #firstblock{
@@ -38,6 +39,10 @@
     flex:1;
 }
 
+#awesomewebsite h2,#awesomewebsite p{
+    padding: 10px;
+}
+
 #awesomewebsite h1{
     font-size: 48px;
     font-weight: bolder;
@@ -65,6 +70,7 @@
 }
 
 #headerwhite{
+    padding-top: 50px;
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
@@ -142,4 +148,16 @@
 
 #flex-cont div{
     flex:1;
+}
+
+#fifthblock{
+    background-color: #1F2937;
+    height: 70px;
+}
+
+#fifthblock p{
+    font-size: 22px;
+    color:#E5E7EB;
+    text-align: center;
+    padding-top: 20px;
 }
