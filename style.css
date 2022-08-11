@@ -1,13 +1,63 @@
 *{
+    /*border: 2px double red;*/
+}
+#firstblock{
+    background-color: #1F2937;
+}
 
+#firstblock *{
+    color:#F9FAF8;
+    font-family: 'Franklin Gothic','Times New Roman', Times, serif;
 }
 
 #headerlogo{
-    padding: 100px;
+    padding-left: 250px;
     display: inline;
+    font-size: 24px;
 }
 
 .headers{
     display: inline;
     padding: 20px;
+}
+
+.flex-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+.flex-container div{
+    height: 250px;
+    flex:1;
+}
+
+#awesomewebsite h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+#awesomewebsite p,div header p{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+#sign{
+    background-color: #3882F6;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#arandomimages{
+    background-color: grey;
 }
