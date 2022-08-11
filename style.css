@@ -1,13 +1,14 @@
 *{
+    font-family: 'Franklin Gothic','Times New Roman', Times, serif;
     /*border: 2px double red;*/
 }
+
 #firstblock{
     background-color: #1F2937;
 }
 
 #firstblock *{
     color:#F9FAF8;
-    font-family: 'Franklin Gothic','Times New Roman', Times, serif;
 }
 
 #headerlogo{
@@ -60,4 +61,36 @@
 
 #arandomimages{
     background-color: grey;
+}
+
+#headerwhite{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+.flex-container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.flex-container2 div div{
+    height: 230px;
+    width: 230px;
+    flex:1;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+}
+.flex-container2 div p{
+    text-align: center;
+    font-size: 25px;
 }
